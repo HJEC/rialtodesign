@@ -1,0 +1,28 @@
+{
+  "name": "cafe",
+  "version": "1.0.0",
+  "description": "A website design for a small independent restaurant in the UK.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HJEC/rialtodesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HJEC/rialtodesign/issues"
+  },
+  "homepage": "https://github.com/HJEC/rialtodesign#readme",
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
+  }
+}
