@@ -1,5 +1,6 @@
-$base-font-size: 16px;
+$base-font-size: 20px;
 $primary-color: #ffdab9;
+$font-family: "Roboto";
 
 body {
   font-size: $base-font-size;
@@ -9,5 +10,10 @@ body {
 p {
   color: orange;
   font-weight: bold;
-  font-size: 40px;
+  font-size: $base-font-size;
+}
+h1 {
+  font-size: 100px;
+  color: rgb(0, 154, 0);
+  font-family: $font-family;
 }
